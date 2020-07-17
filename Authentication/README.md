@@ -14,6 +14,7 @@ Environment Requirements:
 - Ansible
 - Python 3.7
 - ZVR 5.0 +
+- Network connectivity between Ansible host and ZVM
 
 YAML Requirements:
 - Zerto User Name, Password, IP
