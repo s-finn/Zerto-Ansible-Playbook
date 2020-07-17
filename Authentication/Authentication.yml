@@ -1,0 +1,12 @@
+---
+- name: Authentication Module
+  hosts: localhost
+  zerto_authenticate: 
+     zvm_ipaddress: 'zvmipaddress'
+     zvm_username: 'zvmusername'
+     zvm_password: 'zvmpassword'
+  register: zerto_apikey
+
+- name: Print Output 
+  debug: 
+    msg: "{{ zerto_apikey }}"
